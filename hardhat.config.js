@@ -1,15 +1,17 @@
-require("@nomicfoundation/hardhat-ethers");
-require("dotenv").config();
+require("@nomicfoundation/hardhat-toolbox");
+require("@openzeppelin/hardhat-upgrades");
+require("dotenv/config");
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
-  solidity: "0.8.28",
-  networks: {
-    baseSepolia: {
-      url: "https://sepolia.base.org",
-      chainId: 84532,
-      accounts: [process.env.PRIVATE_KEY],
-      gasPrice: 20000000000
-    }
-  }
+    solidity: "0.8.28",
+    networks: {
+        sepolia: {
+            url: process.env.SEPOLIA_RPC_URL || "https://rpc.sepolia.org",
+            accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+        },
+    },
+    etherscan: {
+        apiKey: process.env.ETHERSCAN_API_KEY || "",
+    },
 };
