@@ -1,0 +1,23 @@
+{
+  "name": "Frost Mage",
+  "description": "A epic game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/2.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Cyan"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 70
+    },
+    {
+      "trait_type": "Strength",
+      "value": 60
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Earth Guardian",
+  "description": "A legendary game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/5.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Forest"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 40
+    },
+    {
+      "trait_type": "Strength",
+      "value": 95
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}

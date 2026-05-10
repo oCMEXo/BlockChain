@@ -1,0 +1,23 @@
+{
+  "name": "Wind Dancer",
+  "description": "A rare game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/9.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Sky"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 99
+    },
+    {
+      "trait_type": "Strength",
+      "value": 45
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

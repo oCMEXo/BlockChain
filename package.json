@@ -1,15 +1,24 @@
 {
-  "name": "multisig-wallet",
+  "name": "nft-assignment-9",
   "version": "1.0.0",
-  "description": "Multi-Signature Wallet - Assignment 8",
-  "type": "module",
+  "description": "Assignment 9 — Soulbound ERC-721 Visit Card + ERC-1155 Game Character Collection",
   "scripts": {
-    "compile": "npx hardhat compile",
-    "test": "npx hardhat test",
-    "deploy:local": "npx hardhat run scripts/deploy.js"
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:visitcard:local": "hardhat run scripts/deploy-visitcard.js --network localhost",
+    "deploy:characters:local": "hardhat run scripts/deploy-characters.js --network localhost",
+    "deploy:visitcard:sepolia": "hardhat run scripts/deploy-visitcard.js --network sepolia",
+    "deploy:characters:sepolia": "hardhat run scripts/deploy-characters.js --network sepolia",
+    "mint:visitcard": "hardhat run scripts/mint-visitcard.js --network localhost",
+    "mint:characters": "hardhat run scripts/mint-characters.js --network localhost"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^6.1.2",
+    "dotenv": "^16.4.5",
     "hardhat": "^2.28.6"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
   }
 }

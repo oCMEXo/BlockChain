@@ -1,0 +1,23 @@
+{
+  "name": "Storm Archer",
+  "description": "A rare game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/4.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Indigo"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 80
+    },
+    {
+      "trait_type": "Strength",
+      "value": 65
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

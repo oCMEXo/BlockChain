@@ -1,0 +1,23 @@
+{
+  "name": "Iron Berserker",
+  "description": "A rare game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/8.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Steel"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 50
+    },
+    {
+      "trait_type": "Strength",
+      "value": 88
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Solar Priestess",
+  "description": "A epic game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/6.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Gold"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 60
+    },
+    {
+      "trait_type": "Strength",
+      "value": 55
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Epic"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Student Visit Card — Artem",
+  "description": "Soulbound (non-transferable) digital visit card for a student of the Blockchain & Smart Contracts course. This token is permanently bound to the student's wallet and cannot be transferred, sold, or approved.",
+  "image": "ipfs://REPLACE_CID/visit-card.png",
+  "attributes": [
+    { "trait_type": "Student Name", "value": "Artem" },
+    { "trait_type": "Student ID",   "value": 20240001 },
+    { "trait_type": "Course",       "value": "Blockchain & Smart Contracts" },
+    { "trait_type": "Year",         "value": 2026 },
+    { "trait_type": "Soulbound",    "value": "true" }
+  ]
+}

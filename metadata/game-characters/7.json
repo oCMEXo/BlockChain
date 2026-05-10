@@ -1,0 +1,23 @@
+{
+  "name": "Void Reaper",
+  "description": "A legendary game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/7.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 75
+    },
+    {
+      "trait_type": "Strength",
+      "value": 85
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}

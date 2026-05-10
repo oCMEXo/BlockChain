@@ -1,0 +1,23 @@
+{
+  "name": "Pyro Knight",
+  "description": "A legendary game character from the Genesis Heroes collection.",
+  "image": "ipfs://REPLACE_CID/1.png",
+  "attributes": [
+    {
+      "trait_type": "Color",
+      "value": "Crimson"
+    },
+    {
+      "trait_type": "Speed",
+      "value": 55
+    },
+    {
+      "trait_type": "Strength",
+      "value": 90
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Legendary"
+    }
+  ]
+}
